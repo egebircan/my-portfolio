@@ -1,0 +1,58 @@
+{
+  "projects": [
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "demoLink": "https://www.google.com",
+      "codeLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1https://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqY",
+      "stack": "React, redux",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "demoLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "codeLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "demoLink": "https://www.google.com",
+      "codeLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 1",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "demoLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 2",
+      "description": "Açıklama 2",
+      "demoLink": "https://www.google.com",
+      "codeLink": "https://www.google.com"
+    }
+  ]
+}
