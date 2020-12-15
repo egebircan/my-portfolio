@@ -14,7 +14,7 @@
     },
     {
       "name": "Proje 1",
-      "description": "Açıklama 1https://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqYhttps://www.youtube.com/embed/tgbNymZ7vqY",
+      "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
       "stack": "React, redux",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "demoLink": "https://www.google.com"
@@ -50,7 +50,19 @@
     },
     {
       "name": "Proje 2",
+      "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
+      "demoLink": "https://www.google.com",
+      "codeLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 2",
       "description": "Açıklama 2",
+      "demoLink": "https://www.google.com",
+      "codeLink": "https://www.google.com"
+    },
+    {
+      "name": "Proje 2",
+      "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
       "demoLink": "https://www.google.com",
       "codeLink": "https://www.google.com"
     }

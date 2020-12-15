@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <div style={{height: "100px"}}>
+    <div style={{height: "100px", backgroundColor: "red"}}>
       <div className={styles.title}>
         <Link href="/">HEADER</Link>
       </div>

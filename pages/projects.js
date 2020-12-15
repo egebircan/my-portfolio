@@ -7,7 +7,6 @@ const renderProjects = projects => {
   return projects.map(project => (
     <Project name={project.name} 
              description={project.description} 
-             videoLink={project.videoLink} 
              demoLink={project.demoLink}
              codeLink={project.codeLink}
              />
@@ -17,6 +16,9 @@ export default function ProjectsPage() {
   return (
     <>
       <Header />
+      <PageTitle>
+        Projects
+      </PageTitle>
       <ProjectsLayout>
           {renderProjects(content["projects"])}
       </ProjectsLayout>
@@ -30,8 +32,18 @@ const ProjectsLayout = styled.div`
   width: 75%;
   margin: 0 auto;
   min-height: 0px;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 800px) {
+    width: 85%;
     flex-direction: column;
   }
+`
+
+const PageTitle = styled.div`
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  background-color: blue;
 `

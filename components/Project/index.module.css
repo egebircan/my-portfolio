@@ -1,23 +1,44 @@
-.iframel {
-  width: 100%;
-  height: 100%;
+.info {
+  height: 30%;
+  background-color: royalblue;
+}
+
+@media (max-width: 767px) {
+  .info {
+    height: 10%;
+    background-color: royalblue;
+  }
+}
+
+.techstack {
+  display: flex;
+  flex-wrap: wrap;
+  height: 25%;
+}
+
+@media (max-width: 767px) {
+  .techstack {
+    display: flex;
+    flex-wrap: wrap;
+    height: 35%;
+  }
+}
+
+.techstack > div {
+  flex: 1; /*grow*/
 }
 
 .title {
-  height: 10px;
-  margin-bottom: 15px;
-}
-
-.nav {
-  float: right;
-  margin-bottom: 15px;
-  width: 100%;
+  background-color: purple;
+  float: left;
 }
 
 .btn {
   margin-right: 10px;
+  background-color: black;
+  float: right;
 }
 
-.description {
-  word-break: break-all;
+.descriptionDiv {
+  background-color: yellow;
 }
