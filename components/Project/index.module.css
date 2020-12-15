@@ -1,44 +1,50 @@
 .info {
-  height: 30%;
-  background-color: royalblue;
+  height: 15%;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1333px) {
   .info {
-    height: 10%;
-    background-color: royalblue;
+    height: 12%;
   }
+}
+
+.title {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 5px;
+  margin-right: 10px;
+  float: right;
 }
 
 .techstack {
   display: flex;
   flex-wrap: wrap;
-  height: 25%;
+  min-height: 15%;
+  height: auto;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1333px) {
   .techstack {
     display: flex;
     flex-wrap: wrap;
-    height: 35%;
+    min-height: 15%;
+    height: auto;
   }
 }
 
 .techstack > div {
-  flex: 1; /*grow*/
-}
-
-.title {
-  background-color: purple;
-  float: left;
-}
-
-.btn {
-  margin-right: 10px;
-  background-color: black;
-  float: right;
+  flex: 0 1 auto;
+  font-size: 15px;
+  padding: 5px;
+  min-width: 15%;
 }
 
 .descriptionDiv {
-  background-color: yellow;
+  margin-top: 10px;
+  margin-left: 10px;
 }

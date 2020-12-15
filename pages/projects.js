@@ -9,6 +9,7 @@ const renderProjects = projects => {
              description={project.description} 
              demoLink={project.demoLink}
              codeLink={project.codeLink}
+             techStack={project.techStack}
              />
   ))
 }
@@ -36,7 +37,7 @@ const ProjectsLayout = styled.div`
   justify-content: center;
 
   @media (max-width: 800px) {
-    width: 85%;
+    width: 95%;
     flex-direction: column;
   }
 `

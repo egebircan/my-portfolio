@@ -1,70 +1,52 @@
 {
   "projects": [
     {
-      "name": "Proje 1",
+      "name": "Lab Assigner",
       "description": "Açıklama 1",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "demoLink": "https://www.google.com",
-      "codeLink": "https://www.google.com"
+      "codeLink": "https://www.google.com",
+      "techStack": ["react", "redux", "react-dnd", "node", "express", "php", "mysql"]
     },
     {
-      "name": "Proje 1",
+      "name": "Universal Jira",
       "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "techStack": ["next.js", "typescript", "react-beautiful-dnd", "java", "spring-boot", "mongo"]
     },
     {
-      "name": "Proje 1",
+      "name": "CLI Twitter",
       "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
-      "stack": "React, redux",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "demoLink": "https://www.google.com"
+      "demoLink": "https://www.google.com",
+      "techStack": ["javascript", "selenium", "webdrivers"]
     },
     {
-      "name": "Proje 1",
-      "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
-    },
-    {
-      "name": "Proje 1",
+      "name": "Delete Twitter Likes",
       "description": "Açıklama 1",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "codeLink": "https://www.google.com"
+      "techStack": []
+    },
+    {
+      "name": "Portfolio Website",
+      "description": "Açıklama 1",
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "codeLink": "https://www.google.com",
+      "techStack": []
     },
     {
       "name": "Proje 1",
       "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY"
+      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "techStack": []
     },
     {
       "name": "Proje 1",
       "description": "Açıklama 1",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "demoLink": "https://www.google.com",
-      "codeLink": "https://www.google.com"
-    },
-    {
-      "name": "Proje 1",
-      "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "demoLink": "https://www.google.com"
-    },
-    {
-      "name": "Proje 2",
-      "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
-      "demoLink": "https://www.google.com",
-      "codeLink": "https://www.google.com"
-    },
-    {
-      "name": "Proje 2",
-      "description": "Açıklama 2",
-      "demoLink": "https://www.google.com",
-      "codeLink": "https://www.google.com"
-    },
-    {
-      "name": "Proje 2",
-      "description": "Açıklama 1 Adjusted the appearance of a website template according to our needs. Coded for mostly front-end development in PHP, HTML ,CSS. Programmed the connection between our web site and database for showing, filtering the categories and products in the products page",
-      "demoLink": "https://www.google.com",
-      "codeLink": "https://www.google.com"
+      "codeLink": "https://www.google.com",
+      "techStack": []
     }
   ]
 }
