@@ -18,7 +18,7 @@ export default function ProjectsPage() {
     <>
       <Header />
       <PageTitle>
-        Projects
+        ls
       </PageTitle>
       <ProjectsLayout>
           {renderProjects(content["projects"])}
@@ -44,8 +44,8 @@ const ProjectsLayout = styled.div`
 
 const PageTitle = styled.div`
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 35px;
-  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 60px;
   font-weight: bold;
 `

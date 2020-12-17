@@ -14,14 +14,21 @@
   margin-top: 10px;
   font-size: 20px;
   font-weight: bold;
+  color: #00ff66;
 }
 
 .btn {
   margin-top: 10px;
   margin-right: 10px;
   float: right;
-  color: #10877f;
+  color: #00ff66;
   font-weight: bold;
+  text-decoration: none;
+  border-style: solid;
+  border-width: thin;
+  border-color: #00ff66;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .techstack {
@@ -50,4 +57,5 @@
 .descriptionDiv {
   margin-top: 10px;
   margin-left: 10px;
+  color: #00ff66;
 }
