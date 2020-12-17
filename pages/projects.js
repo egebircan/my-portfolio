@@ -46,5 +46,6 @@ const PageTitle = styled.div`
   text-align: center;
   margin-top: 35px;
   margin-bottom: 35px;
-  background-color: blue;
+  font-size: 40px;
+  font-weight: bold;
 `

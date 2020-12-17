@@ -1,24 +1,27 @@
 .info {
-  height: 15%;
+  height: 20%;
 }
 
 @media (max-width: 1333px) {
   .info {
-    height: 12%;
+    height: 15%;
   }
 }
 
 .title {
   float: left;
   margin-left: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .btn {
-  margin-top: 5px;
+  margin-top: 10px;
   margin-right: 10px;
   float: right;
+  color: #10877f;
+  font-weight: bold;
 }
 
 .techstack {
