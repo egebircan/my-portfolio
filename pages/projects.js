@@ -17,9 +17,6 @@ export default function ProjectsPage() {
   return (
     <>
       <Header />
-      <PageTitle>
-        ls
-      </PageTitle>
       <ProjectsLayout>
           {renderProjects(content["projects"])}
       </ProjectsLayout>
@@ -35,6 +32,7 @@ const ProjectsLayout = styled.div`
   min-height: 0px;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 
   @media (max-width: 800px) {
     width: 95%;

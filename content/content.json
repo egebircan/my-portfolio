@@ -6,13 +6,13 @@
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
       "demoLink": "https://www.google.com",
       "codeLink": "https://www.google.com",
-      "techStack": ["react", "redux", "react-dnd", "node", "express", "php", "mysql"]
+      "techStack": ["react", "redux", "react-dnd", "node", "express", "php", "mysql", "oauth 2.0"]
     },
     {
       "name": "Universal Jira",
       "description": "Açıklama 1",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "techStack": ["next.js", "typescript", "react-beautiful-dnd", "java", "spring-boot", "mongo"]
+      "techStack": ["next.js", "typescript", "react-beautiful-dnd", "react-bootstrap", "java", "spring-boot", "mongo"]
     },
     {
       "name": "CLI Twitter",
@@ -31,20 +31,6 @@
       "name": "Portfolio Website",
       "description": "Açıklama 1",
       "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "codeLink": "https://www.google.com",
-      "techStack": []
-    },
-    {
-      "name": "Proje 1",
-      "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "techStack": []
-    },
-    {
-      "name": "Proje 1",
-      "description": "Açıklama 1",
-      "videoLink": "https://www.youtube.com/embed/tgbNymZ7vqY",
-      "demoLink": "https://www.google.com",
       "codeLink": "https://www.google.com",
       "techStack": []
     }

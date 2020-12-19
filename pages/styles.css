@@ -5,3 +5,122 @@ body {
   font-family: "Roboto Mono", monospace;
   background-color: #cccccc;
 }
+
+.banner {
+  opacity: 0;
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.banner-load {
+  opacity: 1;
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  -webkit-transition: opacity 3s ease-in;
+  -moz-transition: opacity 3s ease-in;
+  -ms-transition: opacity 3s ease-in;
+  -o-transition: opacity 3s ease-in;
+  transition: opacity 3s ease-in;
+}
+
+.banner-loaded {
+  opacity: 1;
+  width: 60%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.terminal p {
+  animation: initial 12s steps(90, end);
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .terminal p {
+    font-size: 8.5px;
+  }
+}
+
+.terminal p:nth-child(2) {
+  animation: typing 7s steps(90, end);
+}
+.terminal p:nth-child(3) {
+  animation: typing 10s steps(90, end);
+}
+.terminal p:nth-child(4) {
+  animation: typing 11s steps(120, end);
+}
+.terminal p:nth-child(5) {
+  animation: typing 17s steps(120, end);
+}
+.terminal p:nth-child(6) {
+  animation: typing 20s steps(120, end);
+}
+.terminal p:nth-child(7) {
+  animation: typing 23s steps(120, end);
+}
+.terminal p:nth-child(8) {
+  animation: typing 27s steps(120, end);
+}
+.terminal p:nth-child(9) {
+  animation: typing 32s steps(250, end);
+}
+.terminal p:nth-child(10) {
+  animation: typing 38s steps(250, end);
+}
+.terminal p:nth-child(11) {
+  animation: typing 45s steps(250, end);
+}
+.terminal p:nth-child(12) {
+  animation: typing 51s steps(250, end);
+}
+.terminal p:nth-child(13) {
+  animation: typing 52s steps(250, end);
+}
+.terminal p:nth-child(14) {
+  animation: typing 53s steps(250, end);
+}
+.terminal p:nth-child(15) {
+  animation: typing 55s steps(250, end);
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  75% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes initial {
+  from {
+    width: 0;
+  }
+}
+
+.link {
+  color: #00ff66;
+  font-weight: bold;
+  text-decoration: underline;
+}

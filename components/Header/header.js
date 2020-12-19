@@ -16,12 +16,12 @@ export default function Header() {
           <nav className={styles.nav}>
               <Link href="/">
                 <a className={styles.navLink}>
-                  cd About/
+                  About
                 </a>        
               </Link>
               <Link href="/projects">
                 <a className={styles.navLink}>
-                  cd Projects/
+                  Projects
                 </a>        
               </Link>
             </nav>
