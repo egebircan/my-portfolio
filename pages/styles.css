@@ -44,11 +44,16 @@ body {
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
+  font-size: 8px;
 }
 
 @media (max-width: 800px) {
   .terminal p {
-    font-size: 8.5px;
+    font-size: 8px;
+  }
+
+  .loadedTerminal p {
+    font-size: 8px;
   }
 }
 
