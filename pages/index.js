@@ -1,24 +1,19 @@
 import Header from "components/Header"
 import styled from 'styled-components'
-import { useEffect, useState, useContext } from "react"
+import { useContext, useState, useEffect } from "react"
 import { StoreContext } from 'store'
 import Link from 'next/link'
 
 export default function Home() {
-
-  const { bannerClass, setBannerClass, terminalClass, setTerminalClass } = useContext(StoreContext)
-
+  const { bannerClass, setBannerClass, terminalClass, showAnimation, setShowAnimation } = useContext(StoreContext)
   useEffect(() => {
     if(bannerClass == "banner") {
       setBannerClass("banner-load")
-    }
-
-    if(terminalClass == "terminal") {
-      setTerminalClass("loadedTerminal")
+      setShowAnimation(false)
+    } else {
+      setBannerClass("banner-loaded")
     }
   }, [])
-
-  console.log(terminalClass)
 
   return (
     <>

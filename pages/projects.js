@@ -2,6 +2,8 @@ import Project from "components/Project"
 import content from "content/content.json"
 import Header from "components/Header"
 import styled from 'styled-components'
+import { StoreContext } from 'store'
+import { useContext } from "react"
 
 const renderProjects = projects => {
   return projects.map(project => (
@@ -13,7 +15,14 @@ const renderProjects = projects => {
              />
   ))
 }
+
 export default function ProjectsPage() {
+  const { terminalClass, setTerminalClass } = useContext(StoreContext)
+
+  if(terminalClass == "terminal") {
+    setTerminalClass("loadedTerminal")
+  }
+
   return (
     <>
       <Header />
