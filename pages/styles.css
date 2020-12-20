@@ -40,20 +40,40 @@ body {
 }
 
 .terminal p {
-  animation: initialanim 12s steps(90, end);
+  animation: initialanim 12s steps(180, end);
   overflow: hidden;
   white-space: nowrap;
   width: 100%;
-  font-size: 8px;
+  font-size: 16px;
+}
+
+.terminal {
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
+}
+
+.loadedTerminal {
+  padding-bottom: 20px;
+  width: 90%;
+  margin: auto;
 }
 
 @media (max-width: 800px) {
   .terminal p {
-    font-size: 8px;
+    font-size: 11px;
   }
 
   .loadedTerminal p {
-    font-size: 8px;
+    font-size: 11px;
+  }
+
+  .terminal {
+    padding-bottom: 5px;
+  }
+
+  .loadedTerminal {
+    padding-bottom: 5px;
   }
 }
 
@@ -67,37 +87,37 @@ body {
   animation: typing 11s steps(120, end);
 }
 .terminal p:nth-child(5) {
-  animation: typing 17s steps(120, end);
+  animation: typing 15s steps(120, end);
 }
 .terminal p:nth-child(6) {
-  animation: typing 20s steps(120, end);
+  animation: typing 17s steps(250, end);
 }
 .terminal p:nth-child(7) {
-  animation: typing 23s steps(120, end);
+  animation: typing 19s steps(250, end);
 }
 .terminal p:nth-child(8) {
-  animation: typing 27s steps(120, end);
+  animation: typing 22s steps(250, end);
 }
 .terminal p:nth-child(9) {
-  animation: typing 32s steps(250, end);
+  animation: typing2 23s steps(250, end);
 }
 .terminal p:nth-child(10) {
-  animation: typing 38s steps(250, end);
+  animation: typing2 26s steps(250, end);
 }
 .terminal p:nth-child(11) {
-  animation: typing 45s steps(250, end);
+  animation: typing2 30s steps(250, end);
 }
 .terminal p:nth-child(12) {
-  animation: typing 51s steps(250, end);
+  animation: typing2 33s steps(250, end);
 }
 .terminal p:nth-child(13) {
-  animation: typing 52s steps(250, end);
+  animation: typing2 34s steps(250, end);
 }
 .terminal p:nth-child(14) {
-  animation: typing 53s steps(250, end);
+  animation: typing2 35s steps(250, end);
 }
 .terminal p:nth-child(15) {
-  animation: typing 55s steps(250, end);
+  animation: typing2 37s steps(250, end);
 }
 
 @keyframes typing {
@@ -110,6 +130,28 @@ body {
   }
 
   75% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes typing2 {
+  0% {
+    width: 0;
+  }
+
+  50% {
+    width: 0;
+  }
+
+  75% {
+    width: 0;
+  }
+
+  85% {
     width: 0;
   }
 

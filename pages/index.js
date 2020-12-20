@@ -20,7 +20,7 @@ export default function Home() {
       <Header />
       <AboutDiv>
         <img className={bannerClass} src="banner.png" />
-        <div style={{width: "90%", margin: "auto", paddingBottom: "20px" }} className={terminalClass}>
+        <div className={terminalClass}>
           <p>
             my name is ege .    .    .  <br></br>
           </p>
@@ -64,12 +64,12 @@ export default function Home() {
             </Link>
           </p>
           <p>
-            for more info about my tech stack check me out on{" "}
+            for my current tech stack --> {" "}
             <a className="link" target="_blank" href="https://stackshare.io/egebircandev">
               stackshare
             </a>        
           </p>
-          <p>to learn more about what i'm doing you can find me on</p>
+          <p>you can also find me on: </p>
           <p style={{marginLeft: "20px"}}>
             <a className="link" target="_blank" href="https://github.com/egebircan">
               github
@@ -92,18 +92,10 @@ export default function Home() {
   )
 }
 
-const PageTitle = styled.div`
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 45px;
-  font-weight: bold;
-`
-
 const AboutDiv = styled.div`
   background-color: black;
   color: #00ff66;
-  width: 75%;
+  width: 65%;
   margin: auto;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -116,5 +108,6 @@ const AboutDiv = styled.div`
 
   @media (max-width: 800px) {
     width: 95%;
+    margin-top: 15px;
   }
 `
