@@ -1,10 +1,10 @@
 .info {
-  height: 20%;
+  height: 15%;
 }
 
 @media (max-width: 1333px) {
   .info {
-    height: 15%;
+    height: 13%;
   }
 }
 
@@ -42,7 +42,7 @@
   .techstack {
     display: flex;
     flex-wrap: wrap;
-    min-height: 15%;
+    min-height: 12%;
     height: auto;
   }
 }
@@ -57,5 +57,6 @@
 .descriptionDiv {
   margin-top: 10px;
   margin-left: 10px;
+  margin-right: 10px;
   color: #00ff66;
 }

@@ -11,6 +11,7 @@ const renderProjects = projects => {
              description={project.description} 
              demoLink={project.demoLink}
              codeLink={project.codeLink}
+             liveLink={project.liveLink}
              techStack={project.techStack}
              />
   ))
@@ -41,18 +42,11 @@ const ProjectsLayout = styled.div`
   min-height: 0px;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 25px;
 
   @media (max-width: 800px) {
     width: 95%;
     flex-direction: column;
+    margin-top: 15px;
   }
-`
-
-const PageTitle = styled.div`
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  font-size: 60px;
-  font-weight: bold;
 `

@@ -7,7 +7,7 @@ const renderTechStack = (tags) => {
     <Tag name={tag}/>
   ))
 }
-export default function Project({ name, description, demoLink, codeLink, techStack }) {
+export default function Project({ name, description, demoLink, codeLink, liveLink, techStack }) {
   return (
     <ProjectDiv>
       <div className={styles.info}>
@@ -26,6 +26,13 @@ export default function Project({ name, description, demoLink, codeLink, techSta
               </div>            
             </a>
           }
+          {liveLink &&
+            <a href={liveLink} target="_blank" className={styles.btn}>
+              <div>
+                live
+              </div>            
+            </a>
+          }
       </div>
       <div className={styles.techstack}>
         {renderTechStack(techStack)}
@@ -37,8 +44,8 @@ export default function Project({ name, description, demoLink, codeLink, techSta
 
 const ProjectDiv = styled.div`
   width: 45%;
-  height: 250px;
-  margin: 25px;
+  height: 290px;
+  margin: 0px 25px 25px 25px; 
   background-color: black;
   border-radius: 20px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -50,7 +57,7 @@ const ProjectDiv = styled.div`
 
   @media (max-width: 1333px) {
     width: 100%;
-    height: 300px;
+    height: 350px;
     margin: 0px;
     margin-bottom: 25px;
   }

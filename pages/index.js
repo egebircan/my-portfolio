@@ -1,6 +1,6 @@
 import Header from "components/Header"
 import styled from 'styled-components'
-import { useContext, useState, useEffect } from "react"
+import { useContext, useEffect } from "react"
 import { StoreContext } from 'store'
 import Link from 'next/link'
 

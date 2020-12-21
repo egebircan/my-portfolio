@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 
-const dd = "#FFFACD"
-
 const tagColors = {
   "javascript": "#D1D403", 
   "typescript": "#1C41B3", 
@@ -22,8 +20,9 @@ const tagColors = {
   "selenium": "#299812", 
   "webdrivers": "#BF154B",
   "docker": "#1FE1CC",
-  "vercel": "##3E3B3D",
-  "netlify": "#1B81BC"
+  "vercel": "#3E3B3D",
+  "netlify": "#1B81BC",
+  "twitter-api": "#00ACF2"
 }
 
 export default function Tag({ name }) {
