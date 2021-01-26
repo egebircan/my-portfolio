@@ -57,7 +57,14 @@ const ProjectDiv = styled.div`
 
   @media (max-width: 1333px) {
     width: 100%;
-    height: 350px;
+    height: 375px;
+    margin: 0px;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 568px) {
+    width: 100%;
+    height: 450px;
     margin: 0px;
     margin-bottom: 25px;
   }

@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Header />
       <AboutDiv>
-        <img className={bannerClass} src="banner.png" />
+        <img className={bannerClass} src="banner2.png" />
         <div className={terminalClass}>
           <p>
             my name is ege .    .    .  <br></br>
@@ -42,17 +42,17 @@ export default function Home() {
           </p>
           <p>
             <span style={{marginLeft: "20px"}}>
+              javascript & swift 
+            </span>
+          </p>
+          <p>
+            <span style={{marginLeft: "20px"}}>
               augmented reality 
             </span>
           </p>
           <p>
             <span style={{marginLeft: "20px"}}>
-              applied machine learning 
-            </span>
-          </p>
-          <p>
-            <span style={{marginLeft: "20px"}}>
-              front-end development  <br></br><br></br>
+              cross platform application development  <br></br><br></br>
             </span>
           </p>
           <p>
@@ -65,7 +65,7 @@ export default function Home() {
           </p>
           <p>
             for my current tech stack --> {" "}
-            <a className="link" target="_blank" href="https://stackshare.io/egebircandev">
+            <a className="link" target="_blank" href="https://stackshare.io/egebircandev/my-current-tech-stack">
               stackshare
             </a>        
           </p>

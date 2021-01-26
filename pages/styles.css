@@ -13,6 +13,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5px;
 }
 
 .banner-load {
@@ -22,6 +23,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5px;
 
   -webkit-transition: opacity 3s ease-in;
   -moz-transition: opacity 3s ease-in;
@@ -37,6 +39,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 5px;
 }
 
 .terminal p {
@@ -74,6 +77,16 @@ body {
 
   .loadedTerminal {
     padding-bottom: 5px;
+  }
+}
+
+@media (max-width: 568px) {
+  .terminal p {
+    font-size: 9px;
+  }
+
+  .loadedTerminal p {
+    font-size: 9px;
   }
 }
 

@@ -22,7 +22,8 @@ const tagColors = {
   "docker": "#1FE1CC",
   "vercel": "#3E3B3D",
   "netlify": "#1B81BC",
-  "twitter-api": "#00ACF2"
+  "twitter-api": "#00ACF2",
+  "heroku": "#9933ff"
 }
 
 export default function Tag({ name }) {
