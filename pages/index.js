@@ -52,7 +52,7 @@ export default function Home() {
           </p>
           <p>
             <span style={{marginLeft: "20px"}}>
-              cross platform application development  <br></br><br></br>
+              cross platform app dev  <br></br><br></br>
             </span>
           </p>
           <p>
