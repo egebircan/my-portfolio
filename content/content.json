@@ -4,7 +4,7 @@
       "name": "League of Tasks",
       "description": "It is Jira but competitive. You create tasks and move them to different states by dragging. You gain points for each finished task. You can see how productive other people in the leaderboard and motivate yourself to do more.",
       "codeLink": "https://github.com/egebircan/JiraUniversal",
-      "liveLink": "https://jira-universal.vercel.app/",
+      "liveLink": "https://jira-universal-nqtwsespe.vercel.app/",
       "techStack": ["next.js", "typescript", "java", "docker", "heroku", "react-beautiful-dnd", "vercel", "spring-boot", "mongo"]
     },
     {
